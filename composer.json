@@ -1,0 +1,31 @@
+{
+  "name": "max/educational-mvc-platform-php",
+  "autoload": {
+    "psr-4": {
+      "Application\\": "App/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Application\\test\\": "test/"
+    }
+  },
+  "authors": [
+    {
+      "name": "aliiahmadi",
+      "email": "aliahmadi.github@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "kitloong/laravel-migrations-generator": "^6.10"
+  },
+  "require": {
+    "doctrine/orm": "^2.15",
+    "vlucas/phpdotenv": "^5.5",
+    "doctrine/dbal": "^3.6",
+    "symfony/yaml": "^5.4",
+    "symfony/cache": "^6.2",
+    "rakit/validation": "^1.4",
+    "firebase/php-jwt": "^6.5"
+  }
+}
